@@ -1,0 +1,4 @@
+wod_classics_list:
+    path:       /api/wod/classics
+    controller: App\Wods\Infrastructure\Controllers\WodController::list
+    methods:    GET

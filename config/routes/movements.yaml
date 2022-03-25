@@ -1,0 +1,4 @@
+movements_list:
+    path:       /api/movements
+    controller: App\Wods\Infrastructure\Controllers\MovementController::list
+    methods:    GET

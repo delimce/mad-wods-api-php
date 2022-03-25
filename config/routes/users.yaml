@@ -1,0 +1,4 @@
+user_login:
+    path:       /api/user/login
+    controller: App\Controller\UserController::show
+    methods:    GET

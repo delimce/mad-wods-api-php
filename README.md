@@ -1,4 +1,4 @@
-# crazy-wods-api
+# mad-wods-api
 The Api for the best WOD's and Crossfit application 
 
 ## How to start the application

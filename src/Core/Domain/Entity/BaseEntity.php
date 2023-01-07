@@ -7,9 +7,9 @@ namespace App\Core\Domain\Entity;
 abstract class BaseEntity
 {
 
-    private  int      $id;
-    private \DateTime $createdAt;
-    private \DateTime $updatedAt;
+    protected  int      $id;
+    protected \DateTime $createdAt;
+    protected \DateTime $updatedAt;
 
     /**
      * Get the value of id

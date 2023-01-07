@@ -9,8 +9,10 @@ use App\Core\Domain\Entity\BaseEntity;
 class Movement extends BaseEntity
 {
     function __construct(
-        private string $name
+        protected string $name,
+        protected string $desc,
     ) {
+   
     }
 
     /**
@@ -33,6 +35,23 @@ class Movement extends BaseEntity
         return $this;
     }
 
+    /**
+     * Get the value of desc
+     */
+    public function getDesc()
+    {
+        return $this->desc;
+    }
 
- 
+    /**
+     * Set the value of desc
+     *
+     * @return  self
+     */
+    public function setDesc($desc)
+    {
+        $this->desc = $desc;
+
+        return $this;
+    }
 }

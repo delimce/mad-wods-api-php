@@ -3,8 +3,9 @@
 namespace App\Core\Infrastructure\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-abstract class BaseController
+abstract class BaseController extends AbstractController
 {
 
     protected function setOkResponse(array $data = [], string $message = "ok")
